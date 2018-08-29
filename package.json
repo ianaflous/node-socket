@@ -1,0 +1,37 @@
+{
+  "name": "node-socket",
+  "version": "0.0.1",
+  "description": "A node Socket.io communication app",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@types/es6-shim": "^0.31.35",
+    "@types/express": "^4.11.1",
+    "@types/socket.io": "^1.4.36",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianaflous/node-socket.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "TypeScript",
+    "Socket.io"
+  ],
+  "author": "ianaflous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianaflous/node-socket/issues"
+  },
+  "homepage": "https://github.com/ianaflous/node-socket#readme"
+}
